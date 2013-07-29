@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class EEViewController;
+@class EEMainView;
 
 @interface EEAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) EEViewController *viewController;
 
 @end

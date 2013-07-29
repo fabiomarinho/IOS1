@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BEF107E17A5ED6000F94775 /* EEViewRecomendacoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF107C17A5ED6000F94775 /* EEViewRecomendacoes.m */; };
+		9BEF107F17A5ED6000F94775 /* EEViewRecomendacoes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BEF107D17A5ED6000F94775 /* EEViewRecomendacoes.xib */; };
+		9BEF108317A5EDF600F94775 /* EEViewPerfil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF108117A5EDF600F94775 /* EEViewPerfil.m */; };
+		9BEF108417A5EDF600F94775 /* EEViewPerfil.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BEF108217A5EDF600F94775 /* EEViewPerfil.xib */; };
+		9BEF108817A5EE2500F94775 /* EEViewRegistro.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF108617A5EE2500F94775 /* EEViewRegistro.m */; };
+		9BEF108917A5EE2500F94775 /* EEViewRegistro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BEF108717A5EE2500F94775 /* EEViewRegistro.xib */; };
 		C7028C7B1796BA0100A50CBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7028C7A1796BA0000A50CBD /* UIKit.framework */; };
 		C7028C7D1796BA0100A50CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7028C7C1796BA0100A50CBD /* Foundation.framework */; };
 		C7028C7F1796BA0100A50CBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7028C7E1796BA0100A50CBD /* CoreGraphics.framework */; };
@@ -16,8 +22,8 @@
 		C7028C8D1796BA0100A50CBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028C8C1796BA0100A50CBD /* Default.png */; };
 		C7028C8F1796BA0100A50CBD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028C8E1796BA0100A50CBD /* Default@2x.png */; };
 		C7028C911796BA0100A50CBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028C901796BA0100A50CBD /* Default-568h@2x.png */; };
-		C7028C941796BA0100A50CBD /* EEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7028C931796BA0100A50CBD /* EEViewController.m */; };
-		C7028C971796BA0100A50CBD /* EEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7028C951796BA0100A50CBD /* EEViewController.xib */; };
+		C7028C941796BA0100A50CBD /* EEMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7028C931796BA0100A50CBD /* EEMainView.m */; };
+		C7028C971796BA0100A50CBD /* EEMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7028C951796BA0100A50CBD /* EEMainView.xib */; };
 		C7028C9E1796BAFD00A50CBD /* Logo_Nutrindo_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028C9D1796BAFD00A50CBD /* Logo_Nutrindo_57x57.png */; };
 		C7028CA01796BB0600A50CBD /* Logo_Nutrindo_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028C9F1796BB0600A50CBD /* Logo_Nutrindo_114x114.png */; };
 		C7028CA21796BC1600A50CBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028CA11796BC1600A50CBD /* Default.png */; };
@@ -26,6 +32,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BEF107B17A5ED6000F94775 /* EEViewRecomendacoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEViewRecomendacoes.h; sourceTree = "<group>"; };
+		9BEF107C17A5ED6000F94775 /* EEViewRecomendacoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEViewRecomendacoes.m; sourceTree = "<group>"; };
+		9BEF107D17A5ED6000F94775 /* EEViewRecomendacoes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEViewRecomendacoes.xib; sourceTree = "<group>"; };
+		9BEF108017A5EDF600F94775 /* EEViewPerfil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEViewPerfil.h; sourceTree = "<group>"; };
+		9BEF108117A5EDF600F94775 /* EEViewPerfil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEViewPerfil.m; sourceTree = "<group>"; };
+		9BEF108217A5EDF600F94775 /* EEViewPerfil.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEViewPerfil.xib; sourceTree = "<group>"; };
+		9BEF108517A5EE2500F94775 /* EEViewRegistro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEViewRegistro.h; sourceTree = "<group>"; };
+		9BEF108617A5EE2500F94775 /* EEViewRegistro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEViewRegistro.m; sourceTree = "<group>"; };
+		9BEF108717A5EE2500F94775 /* EEViewRegistro.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEViewRegistro.xib; sourceTree = "<group>"; };
 		C7028C771796BA0000A50CBD /* Nutrindo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrindo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7028C7A1796BA0000A50CBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7028C7C1796BA0100A50CBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,9 +54,9 @@
 		C7028C8C1796BA0100A50CBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C7028C8E1796BA0100A50CBD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C7028C901796BA0100A50CBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C7028C921796BA0100A50CBD /* EEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEViewController.h; sourceTree = "<group>"; };
-		C7028C931796BA0100A50CBD /* EEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEViewController.m; sourceTree = "<group>"; };
-		C7028C961796BA0100A50CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EEViewController.xib; sourceTree = "<group>"; };
+		C7028C921796BA0100A50CBD /* EEMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEMainView.h; sourceTree = "<group>"; };
+		C7028C931796BA0100A50CBD /* EEMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEMainView.m; sourceTree = "<group>"; };
+		C7028C961796BA0100A50CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EEMainView.xib; sourceTree = "<group>"; };
 		C7028C9D1796BAFD00A50CBD /* Logo_Nutrindo_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_Nutrindo_57x57.png; sourceTree = "<group>"; };
 		C7028C9F1796BB0600A50CBD /* Logo_Nutrindo_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_Nutrindo_114x114.png; sourceTree = "<group>"; };
 		C7028CA11796BC1600A50CBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -100,9 +115,18 @@
 			children = (
 				C7028C891796BA0100A50CBD /* EEAppDelegate.h */,
 				C7028C8A1796BA0100A50CBD /* EEAppDelegate.m */,
-				C7028C921796BA0100A50CBD /* EEViewController.h */,
-				C7028C931796BA0100A50CBD /* EEViewController.m */,
-				C7028C951796BA0100A50CBD /* EEViewController.xib */,
+				C7028C921796BA0100A50CBD /* EEMainView.h */,
+				C7028C931796BA0100A50CBD /* EEMainView.m */,
+				C7028C951796BA0100A50CBD /* EEMainView.xib */,
+				9BEF107B17A5ED6000F94775 /* EEViewRecomendacoes.h */,
+				9BEF107C17A5ED6000F94775 /* EEViewRecomendacoes.m */,
+				9BEF107D17A5ED6000F94775 /* EEViewRecomendacoes.xib */,
+				9BEF108017A5EDF600F94775 /* EEViewPerfil.h */,
+				9BEF108117A5EDF600F94775 /* EEViewPerfil.m */,
+				9BEF108217A5EDF600F94775 /* EEViewPerfil.xib */,
+				9BEF108517A5EE2500F94775 /* EEViewRegistro.h */,
+				9BEF108617A5EE2500F94775 /* EEViewRegistro.m */,
+				9BEF108717A5EE2500F94775 /* EEViewRegistro.xib */,
 				C7028C811796BA0100A50CBD /* Supporting Files */,
 			);
 			path = Nutrindo;
@@ -178,12 +202,15 @@
 				C7028C8D1796BA0100A50CBD /* Default.png in Resources */,
 				C7028C8F1796BA0100A50CBD /* Default@2x.png in Resources */,
 				C7028C911796BA0100A50CBD /* Default-568h@2x.png in Resources */,
-				C7028C971796BA0100A50CBD /* EEViewController.xib in Resources */,
+				C7028C971796BA0100A50CBD /* EEMainView.xib in Resources */,
 				C7028C9E1796BAFD00A50CBD /* Logo_Nutrindo_57x57.png in Resources */,
 				C7028CA01796BB0600A50CBD /* Logo_Nutrindo_114x114.png in Resources */,
 				C7028CA21796BC1600A50CBD /* Default.png in Resources */,
 				C7028CA41796BC3000A50CBD /* Default@2x.png in Resources */,
 				C7028CA61796BC4300A50CBD /* Default-568h@2x.png in Resources */,
+				9BEF107F17A5ED6000F94775 /* EEViewRecomendacoes.xib in Resources */,
+				9BEF108417A5EDF600F94775 /* EEViewPerfil.xib in Resources */,
+				9BEF108917A5EE2500F94775 /* EEViewRegistro.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +223,10 @@
 			files = (
 				C7028C871796BA0100A50CBD /* main.m in Sources */,
 				C7028C8B1796BA0100A50CBD /* EEAppDelegate.m in Sources */,
-				C7028C941796BA0100A50CBD /* EEViewController.m in Sources */,
+				C7028C941796BA0100A50CBD /* EEMainView.m in Sources */,
+				9BEF107E17A5ED6000F94775 /* EEViewRecomendacoes.m in Sources */,
+				9BEF108317A5EDF600F94775 /* EEViewPerfil.m in Sources */,
+				9BEF108817A5EE2500F94775 /* EEViewRegistro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +241,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C7028C951796BA0100A50CBD /* EEViewController.xib */ = {
+		C7028C951796BA0100A50CBD /* EEMainView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C7028C961796BA0100A50CBD /* en */,
 			);
-			name = EEViewController.xib;
+			name = EEMainView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -317,6 +347,7 @@
 				C7028C9C1796BA0100A50CBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

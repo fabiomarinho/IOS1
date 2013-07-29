@@ -8,24 +8,32 @@
 
 #import "EEAppDelegate.h"
 
-#import "EEViewController.h"
+#import "EEMainView.h"
 
 @implementation EEAppDelegate
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [UIViewController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
+    EEMainView *mainView = [[EEMainView alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainView];
+    
     // Override point for customization after application launch.
-    self.viewController = [[[EEViewController alloc] initWithNibName:@"EEViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    //self.viewController = [[[EEMainView alloc] initWithNibName:@"EEMainView" bundle:nil] autorelease];
+    self.window.rootViewController = navController;
+    
     [self.window makeKeyAndVisible];
+    [mainView release];
+    [navController release];
+    
     return YES;
 }
 
