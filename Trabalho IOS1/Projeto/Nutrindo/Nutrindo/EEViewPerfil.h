@@ -9,9 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface EEViewPerfil : UIViewController
-- (IBAction)abrirRecomendacoes:(id)sender;
-- (IBAction)abirPerfil:(id)sender;
-- (IBAction)abrirRegistro:(id)sender;
-- (IBAction)abrirPrincipal:(id)sender;
 
 @end

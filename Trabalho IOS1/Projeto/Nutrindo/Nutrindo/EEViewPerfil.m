@@ -38,28 +38,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)abrirRecomendacoes:(id)sender {
-    EEViewRecomendacoes *rec = [[EEViewRecomendacoes alloc] init];
-    [self.navigationController pushViewController:rec animated:YES];
-    [rec release];
-}
-
-- (IBAction)abirPerfil:(id)sender {
-    EEViewPerfil *rec = [[EEViewPerfil alloc] init];
-    [self.navigationController pushViewController:rec animated:YES];
-    [rec release];
-}
-
-- (IBAction)abrirRegistro:(id)sender {
-    EEViewRegistro *rec = [[EEViewRegistro alloc] init];
-    [self.navigationController pushViewController:rec animated:YES];
-    [rec release];
-}
-
-- (IBAction)abrirPrincipal:(id)sender {
-    EEMainView *rec = [[EEMainView alloc] init];
-    [self.navigationController pushViewController:rec animated:YES];
-    [rec release];
-}
 
 @end
