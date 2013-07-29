@@ -21,6 +21,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //Definição da cor para barra de navegação
+    self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.0 green:0.6745 blue:0.4196 alpha:1.0];
     self.title = @"Principal";
 }
 
@@ -36,7 +38,8 @@
     [rec release];
 }
 
-- (IBAction)abirPerfil:(id)sender {
+
+- (IBAction)abrirPerfil:(id)sender {
     EEViewPerfil *rec = [[EEViewPerfil alloc] init];
     [self.navigationController pushViewController:rec animated:YES];
     [rec release];
@@ -53,4 +56,5 @@
     [self.navigationController pushViewController:rec animated:YES];
     [rec release];
 }
+
 @end

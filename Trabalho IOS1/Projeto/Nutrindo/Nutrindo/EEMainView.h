@@ -11,8 +11,7 @@
 
 @interface EEMainView : UIViewController
 - (IBAction)abrirRecomendacoes:(id)sender;
-- (IBAction)abirPerfil:(id)sender;
+- (IBAction)abrirPerfil:(id)sender;
 - (IBAction)abrirRegistro:(id)sender;
-- (IBAction)abrirPrincipal:(id)sender;
 
 @end

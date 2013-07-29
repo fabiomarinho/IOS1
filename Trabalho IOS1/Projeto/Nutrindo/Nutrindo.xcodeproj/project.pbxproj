@@ -29,6 +29,9 @@
 		C7028CA21796BC1600A50CBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028CA11796BC1600A50CBD /* Default.png */; };
 		C7028CA41796BC3000A50CBD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028CA31796BC3000A50CBD /* Default@2x.png */; };
 		C7028CA61796BC4300A50CBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7028CA51796BC4300A50CBD /* Default-568h@2x.png */; };
+		C72C841217A6D3900043DEEF /* 1373647489_Edit Alt.png in Resources */ = {isa = PBXBuildFile; fileRef = C72C840F17A6D3900043DEEF /* 1373647489_Edit Alt.png */; };
+		C72C841317A6D3900043DEEF /* 1373647024_User Alt.png in Resources */ = {isa = PBXBuildFile; fileRef = C72C841017A6D3900043DEEF /* 1373647024_User Alt.png */; };
+		C72C841417A6D3900043DEEF /* 1373646999_History.png in Resources */ = {isa = PBXBuildFile; fileRef = C72C841117A6D3900043DEEF /* 1373646999_History.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		C7028CA11796BC1600A50CBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C7028CA31796BC3000A50CBD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C7028CA51796BC4300A50CBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C72C840F17A6D3900043DEEF /* 1373647489_Edit Alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1373647489_Edit Alt.png"; sourceTree = "<group>"; };
+		C72C841017A6D3900043DEEF /* 1373647024_User Alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1373647024_User Alt.png"; sourceTree = "<group>"; };
+		C72C841117A6D3900043DEEF /* 1373646999_History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1373646999_History.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		C7028C6E1796BA0000A50CBD = {
 			isa = PBXGroup;
 			children = (
+				C72C840F17A6D3900043DEEF /* 1373647489_Edit Alt.png */,
+				C72C841017A6D3900043DEEF /* 1373647024_User Alt.png */,
+				C72C841117A6D3900043DEEF /* 1373646999_History.png */,
 				C7028CA51796BC4300A50CBD /* Default-568h@2x.png */,
 				C7028CA31796BC3000A50CBD /* Default@2x.png */,
 				C7028CA11796BC1600A50CBD /* Default.png */,
@@ -211,6 +220,9 @@
 				9BEF107F17A5ED6000F94775 /* EEViewRecomendacoes.xib in Resources */,
 				9BEF108417A5EDF600F94775 /* EEViewPerfil.xib in Resources */,
 				9BEF108917A5EE2500F94775 /* EEViewRegistro.xib in Resources */,
+				C72C841217A6D3900043DEEF /* 1373647489_Edit Alt.png in Resources */,
+				C72C841317A6D3900043DEEF /* 1373647024_User Alt.png in Resources */,
+				C72C841417A6D3900043DEEF /* 1373646999_History.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
