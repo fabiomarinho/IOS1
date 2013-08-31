@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76A586F17C8DB1D002EE11B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76A586E17C8DB1D002EE11B /* UIKit.framework */; };
+		C76A587117C8DB1D002EE11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76A587017C8DB1D002EE11B /* Foundation.framework */; };
+		C76A587317C8DB1D002EE11B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76A587217C8DB1D002EE11B /* CoreGraphics.framework */; };
+		C76A587917C8DB1D002EE11B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C76A587717C8DB1D002EE11B /* InfoPlist.strings */; };
+		C76A587B17C8DB1D002EE11B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76A587A17C8DB1D002EE11B /* main.m */; };
+		C76A587F17C8DB1D002EE11B /* EEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76A587E17C8DB1D002EE11B /* EEAppDelegate.m */; };
+		C76A588117C8DB1D002EE11B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C76A588017C8DB1D002EE11B /* Default.png */; };
+		C76A588317C8DB1D002EE11B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C76A588217C8DB1D002EE11B /* Default@2x.png */; };
+		C76A588517C8DB1D002EE11B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C76A588417C8DB1D002EE11B /* Default-568h@2x.png */; };
+		C76A588817C8DB1D002EE11B /* EERootController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76A588717C8DB1D002EE11B /* EERootController.m */; };
+		C76A588B17C8DB1D002EE11B /* EERootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C76A588917C8DB1D002EE11B /* EERootController.xib */; };
+		C76A589217C8E8FE002EE11B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76A589117C8E8FE002EE11B /* AddressBook.framework */; };
+		C76A589517C8F6A5002EE11B /* EEContato.m in Sources */ = {isa = PBXBuildFile; fileRef = C76A589417C8F6A5002EE11B /* EEContato.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C76A586B17C8DB1D002EE11B /* ContatosIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContatosIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76A586E17C8DB1D002EE11B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C76A587017C8DB1D002EE11B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C76A587217C8DB1D002EE11B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C76A587617C8DB1D002EE11B /* ContatosIphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContatosIphone-Info.plist"; sourceTree = "<group>"; };
+		C76A587817C8DB1D002EE11B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C76A587A17C8DB1D002EE11B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76A587C17C8DB1D002EE11B /* ContatosIphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContatosIphone-Prefix.pch"; sourceTree = "<group>"; };
+		C76A587D17C8DB1D002EE11B /* EEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEAppDelegate.h; sourceTree = "<group>"; };
+		C76A587E17C8DB1D002EE11B /* EEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEAppDelegate.m; sourceTree = "<group>"; };
+		C76A588017C8DB1D002EE11B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C76A588217C8DB1D002EE11B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C76A588417C8DB1D002EE11B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C76A588617C8DB1D002EE11B /* EERootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EERootController.h; sourceTree = "<group>"; };
+		C76A588717C8DB1D002EE11B /* EERootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EERootController.m; sourceTree = "<group>"; };
+		C76A588A17C8DB1D002EE11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EERootController.xib; sourceTree = "<group>"; };
+		C76A589117C8E8FE002EE11B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		C76A589317C8F6A5002EE11B /* EEContato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEContato.h; sourceTree = "<group>"; };
+		C76A589417C8F6A5002EE11B /* EEContato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEContato.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76A586817C8DB1D002EE11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76A589217C8E8FE002EE11B /* AddressBook.framework in Frameworks */,
+				C76A586F17C8DB1D002EE11B /* UIKit.framework in Frameworks */,
+				C76A587117C8DB1D002EE11B /* Foundation.framework in Frameworks */,
+				C76A587317C8DB1D002EE11B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76A586217C8DB1D002EE11B = {
+			isa = PBXGroup;
+			children = (
+				C76A589117C8E8FE002EE11B /* AddressBook.framework */,
+				C76A587417C8DB1D002EE11B /* ContatosIphone */,
+				C76A586D17C8DB1D002EE11B /* Frameworks */,
+				C76A586C17C8DB1D002EE11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76A586C17C8DB1D002EE11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76A586B17C8DB1D002EE11B /* ContatosIphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76A586D17C8DB1D002EE11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C76A586E17C8DB1D002EE11B /* UIKit.framework */,
+				C76A587017C8DB1D002EE11B /* Foundation.framework */,
+				C76A587217C8DB1D002EE11B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C76A587417C8DB1D002EE11B /* ContatosIphone */ = {
+			isa = PBXGroup;
+			children = (
+				C76A587D17C8DB1D002EE11B /* EEAppDelegate.h */,
+				C76A587E17C8DB1D002EE11B /* EEAppDelegate.m */,
+				C76A588617C8DB1D002EE11B /* EERootController.h */,
+				C76A588717C8DB1D002EE11B /* EERootController.m */,
+				C76A588917C8DB1D002EE11B /* EERootController.xib */,
+				C76A587517C8DB1D002EE11B /* Supporting Files */,
+				C76A589317C8F6A5002EE11B /* EEContato.h */,
+				C76A589417C8F6A5002EE11B /* EEContato.m */,
+			);
+			path = ContatosIphone;
+			sourceTree = "<group>";
+		};
+		C76A587517C8DB1D002EE11B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76A587617C8DB1D002EE11B /* ContatosIphone-Info.plist */,
+				C76A587717C8DB1D002EE11B /* InfoPlist.strings */,
+				C76A587A17C8DB1D002EE11B /* main.m */,
+				C76A587C17C8DB1D002EE11B /* ContatosIphone-Prefix.pch */,
+				C76A588017C8DB1D002EE11B /* Default.png */,
+				C76A588217C8DB1D002EE11B /* Default@2x.png */,
+				C76A588417C8DB1D002EE11B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76A586A17C8DB1D002EE11B /* ContatosIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76A588E17C8DB1D002EE11B /* Build configuration list for PBXNativeTarget "ContatosIphone" */;
+			buildPhases = (
+				C76A586717C8DB1D002EE11B /* Sources */,
+				C76A586817C8DB1D002EE11B /* Frameworks */,
+				C76A586917C8DB1D002EE11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContatosIphone;
+			productName = ContatosIphone;
+			productReference = C76A586B17C8DB1D002EE11B /* ContatosIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76A586317C8DB1D002EE11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ios;
+			};
+			buildConfigurationList = C76A586617C8DB1D002EE11B /* Build configuration list for PBXProject "ContatosIphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C76A586217C8DB1D002EE11B;
+			productRefGroup = C76A586C17C8DB1D002EE11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76A586A17C8DB1D002EE11B /* ContatosIphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76A586917C8DB1D002EE11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76A587917C8DB1D002EE11B /* InfoPlist.strings in Resources */,
+				C76A588117C8DB1D002EE11B /* Default.png in Resources */,
+				C76A588317C8DB1D002EE11B /* Default@2x.png in Resources */,
+				C76A588517C8DB1D002EE11B /* Default-568h@2x.png in Resources */,
+				C76A588B17C8DB1D002EE11B /* EERootController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76A586717C8DB1D002EE11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76A587B17C8DB1D002EE11B /* main.m in Sources */,
+				C76A587F17C8DB1D002EE11B /* EEAppDelegate.m in Sources */,
+				C76A588817C8DB1D002EE11B /* EERootController.m in Sources */,
+				C76A589517C8F6A5002EE11B /* EEContato.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C76A587717C8DB1D002EE11B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76A587817C8DB1D002EE11B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C76A588917C8DB1D002EE11B /* EERootController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76A588A17C8DB1D002EE11B /* en */,
+			);
+			name = EERootController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76A588C17C8DB1D002EE11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C76A588D17C8DB1D002EE11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76A588F17C8DB1D002EE11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContatosIphone/ContatosIphone-Prefix.pch";
+				INFOPLIST_FILE = "ContatosIphone/ContatosIphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C76A589017C8DB1D002EE11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContatosIphone/ContatosIphone-Prefix.pch";
+				INFOPLIST_FILE = "ContatosIphone/ContatosIphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76A586617C8DB1D002EE11B /* Build configuration list for PBXProject "ContatosIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76A588C17C8DB1D002EE11B /* Debug */,
+				C76A588D17C8DB1D002EE11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76A588E17C8DB1D002EE11B /* Build configuration list for PBXNativeTarget "ContatosIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76A588F17C8DB1D002EE11B /* Debug */,
+				C76A589017C8DB1D002EE11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76A586317C8DB1D002EE11B /* Project object */;
+}
